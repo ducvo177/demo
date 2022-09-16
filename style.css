@@ -1,0 +1,104 @@
+.container {
+  width: 100%;
+  height: 935px;
+  display: flex;
+}
+.sidebar {
+  width: 150px;
+  height: 100%;
+  background-color: #191718;
+}
+
+.sidebar__item {
+  width: 150px;
+  color: #aaaaaa;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  list-style: none;
+  border-bottom: 1px solid #5c5c5c;
+}
+.sidebar__item.active {
+  background-color: #5c5c5c;
+  color: #fff;
+}
+
+.sidebar__text {
+  margin: 0 0 0 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 44px;
+}
+.content {
+  margin: 0 129px;
+  width: 1768px;
+  height: 100%;
+}
+.header {
+  width: 310px;
+  height: 122px;
+  margin: 20px 0;
+}
+.logo {
+ 
+  width: 310px;
+  height: 122px;
+  position: absolute;
+  left: 45%;
+}
+.introduce{
+  width: 1510px;
+  height: 210px;
+  background: #efefef;
+  text-align: center;
+}
+.introduce-title{
+    padding-top:38px;
+}
+.introduce-content{
+    margin: 0 290px;
+}
+.courses{
+    width: 100%;
+    height:400px;
+    margin:30px 0;
+    display:flex;
+}
+.courses__title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+
+}
+.courses__image{
+    width: 128px;
+    height: 128px;
+    float: left;
+}
+
+.courses__content{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.footer{
+    border-top: 1px solid #DEDEDE;
+}
+.footer__title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #3E3E3E;
+}
